@@ -1,0 +1,375 @@
+
+ * {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(62, 64, 64);   
+
+}
+
+.flex-container .imagen img{
+    margin: 0;    
+    width: 100px;
+    height: 70px;
+}
+
+
+.flex-container .titulo{      
+    margin:20px 5px; 
+    font-size: 8px; 
+    color: aliceblue;     
+}
+
+.flex-container .barraNav/*nav*/{        
+    padding: 20px;
+    margin-left:300px;       
+}
+
+.flex-container .items{
+    
+    color: rgb(235, 227, 227);
+    margin-right: 20px;
+    text-decoration: none;
+    transition: 1s all;
+}
+
+.items:hover{
+    color: green;
+    transform: scale(1.2); 
+}
+
+
+/*----------------------------------------------------------------*/
+
+.primera{ 
+    --opacidad-negro: 0.5;   
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))),url(imagenes_front/ba1.jpg);
+    background-size: 100% 100%;    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.primera div{   
+    color: antiquewhite;    
+    text-align: right;
+    margin: 350px 100px;
+    width: 500px;
+    height: 200px;  
+}
+
+.primera div a{
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    margin: 15px;    
+    padding:5px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 1s all;
+}
+
+.primera div a:hover{
+    background-color: orange;
+    transform: scale(1.2);
+}
+
+#dos{
+    background-color: rgb(22, 189, 22);
+    border: none;    
+}
+
+#dos:hover{
+    background-color: orange;
+    transform: scale(1.2);
+}
+
+/*-------------------------------------------------------------------------*/
+
+.segunda .uno{
+    text-align: center;
+}
+
+.segunda h2{
+    text-align: center;
+}
+
+.segunda .segundaContainer{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+/*---primera imagen---*/
+
+.segunda .primeraImagen{    
+    border: 1px solid rgb(168, 168, 168);    
+    width: 300px;
+    margin-right: 30px;
+}
+.segunda .primeraImagen img{
+    width: 300px;
+    height: 300px;         
+}
+.segunda .primeraImagen .primeraParrafo{
+    font-size: 12px;
+    font-weight: bold;
+    color:black;
+    background-color: rgb(241, 241, 85);
+    margin: 10px 5px 0 10px;
+    padding: 3px;
+    border: 1px solid black;
+    border: none;
+    border-radius: 5px;
+    display:inline-block;
+}
+.segunda .primeraImagen .primeraParrafo2{
+    font-size: 12px;
+    font-weight: bold;
+    color:aliceblue;
+    background-color: rgb(48, 48, 176);
+    margin: 10px 5px 0 10px;
+    padding: 3px;
+    border: 1px solid black;
+    border: none;
+    border-radius: 5px;
+    display:inline-block;
+}
+.segunda .primeraImagen h3,p{
+    margin: 5px 0 10px 15px;
+}
+
+/*---segunda imagen---*/
+
+.segunda .segundaImagen{    
+    border: 1px solid  rgb(168, 168, 168);
+    width: 300px;
+    margin-right: 30px;
+}
+
+.segunda .segundaImagen img{
+    width: 300px;
+    height: 300px;
+}
+
+.segunda .segundaImagen .segundaParrafo{
+    font-size: 12px;
+    font-weight: bold;
+    color:black;
+    background-color: rgb(241, 241, 85);
+    margin: 10px 5px 0 10px;
+    padding: 3px;
+    border: 1px solid black;
+    border: none;
+    border-radius: 5px;
+    display:inline-block;
+}
+.segunda .segundaImagen .segundaParrafo2{
+    font-size: 12px;
+    font-weight: bold;
+    color:aliceblue;
+    background-color: rgb(48, 48, 176);
+    margin: 10px 5px 0 10px;
+    padding: 3px;
+    border: 1px solid black;
+    border: none;
+    border-radius: 5px;
+    display:inline-block;
+}
+.segunda .segundaImagen h3,p{
+    margin: 5px 0 10px 15px;
+}
+
+
+/*---tercer imagen---*/
+
+
+.segunda .terceraImagen{
+    
+    border: 1px solid  rgb(168, 168, 168);
+    width: 300px;
+    margin-right: 30px;
+}
+.segunda .terceraImagen img{
+    width: 300px;
+    height: 300px;
+}
+
+.segunda .terceraImagen .terceraParrafo{
+    font-size: 12px;
+    font-weight: bold;
+    color:white;
+    background-color: rgb(163, 160, 160);
+    margin: 10px 5px 0 10px;
+    padding: 3px;
+    border: 1px solid black;
+    border: none;
+    border-radius: 5px;
+    display:inline-block;
+}
+.segunda .terceraImagen .terceraParrafo2{
+    font-size: 12px;
+    font-weight: bold;
+    color:aliceblue;
+    background-color: rgb(227, 72, 72);
+    margin: 10px 5px 0 10px;
+    padding: 3px;
+    border: 1px solid black;
+    border: none;
+    border-radius: 5px;
+    display:inline-block;
+}
+.segunda .terceraImagen h3,p{
+    margin: 5px 0 10px 15px;
+}
+
+/*---------------------------------*/
+
+.tercera{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tercera .imagen img{
+    flex-basis: 50%;
+    width: 650px;
+    height: 500px;
+}
+
+.tercera .texto{
+    background-color: grey;
+    color:aliceblue;
+    border: 1px solid white;
+    flex-basis:50%;  /*<-----esto modifique---->*/
+    /*width: 685px;
+    height: 500px;*/        
+}
+
+.tercera .texto h2{
+    margin-left: 15px;   
+    color:aliceblue;
+}
+
+.tercera .texto .boton{
+    margin: 20px 0 0 15px;     
+}
+
+.tercera .texto .boton a{
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    padding:5px;
+    border-radius: 5px;
+    text-decoration: none;    
+    transition: 1s all;   
+}
+.tercera .texto a:hover{
+    background-color: rgb(240, 195, 112);
+}
+
+/*-------------------------------------------------*/
+
+.cuarta .uno{
+    text-align: center;
+}
+
+.cuarta h2{
+    text-align: center;
+}
+
+.cuarta p{
+    text-align: center;
+}
+
+.cuarta .formulario form{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+      
+}
+
+.cuarta .formulario form .caja1{
+    margin: 10px 0 20px 200px;
+    width: 400px;
+    height: 40px;
+    
+    padding: 10px;     
+}
+
+.cuarta .formulario form .caja2{
+    width: 400px;
+    height: 40px;
+    margin:10px 200px 20px 100px;
+    padding: 10px;     
+}
+
+
+.cuarta .formulario form .caja3{
+    width: 900px;
+    margin-left: 200px;
+    padding: 10px;    
+}
+
+.cuarta .formulario form .etiqueta{
+    margin-left: 200px;
+    margin-right: 300px;
+    padding: 10px; 
+    color: rgb(148, 146, 146);   
+}
+
+.cuarta .formulario form .boton{
+    width: 900px;
+    margin-left: 200px;
+    margin-top: 20px;
+    padding: 10px;  
+    background-color: rgb(12, 223, 12); 
+    border-radius: 10px; 
+    border:none;
+    color: white;
+    font-size: 18px;
+    transition: 1s all; 
+}
+
+.cuarta .formulario form .boton:hover{
+    background-color: darkorange;
+}
+
+.pie{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:  rgb(62, 64, 64);
+    margin-top: 20px;
+    height: 55px;
+    justify-content: center;
+}
+
+.pie nav ul{
+    padding-top: 5px;    
+}
+
+.pie nav ul a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 15px 25px 15px 0;
+    transition: 1s all;     
+}
+
+.pie nav ul a:hover{
+    color: rgb(10, 184, 10);
+}
+
+
+
+
