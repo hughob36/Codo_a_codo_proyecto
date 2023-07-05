@@ -1,0 +1,132 @@
+
+.programadores .containerSegunda{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.programadores .containerSegunda .pri{
+    border: 1px solid rgb(42, 8, 165);
+    margin-right: 5px ;
+    padding: 20px;
+}
+.programadores .containerSegunda .pri h1,p{
+    text-align: center;
+
+}
+
+.programadores .containerSegunda .segu{
+    border: 1px solid rgb(42, 8, 165);  
+    margin-right: 5px ;
+    padding: 20px;
+}
+.programadores .containerSegunda .segu h1,p{
+    text-align: center;
+
+}
+.programadores .containerSegunda .ter{
+    border: 1px solid rgb(242, 128, 7);
+    padding: 20px; 
+}
+.programadores .containerSegunda .ter h1{
+    text-align: center;   
+
+}
+
+.formulario2 form{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+      
+}
+
+.formulario2 form .caja10{
+    
+    margin: 10px 50px 20px 0;
+    width: 400px;
+    height: 40px;
+} 
+
+.formulario2 form .caja20{
+    
+    margin: 10px 10px 20px 0;
+    width: 400px;
+    height: 40px;
+}
+
+.formulario2 form .caja30{
+    
+    margin: 10px 200px 20px 200px;
+    width: 850px;
+    
+    height: 40px;
+}
+
+.formulario2 form .eti{ 
+   
+    width: 100px; 
+    height: 20px;
+    margin: 0 0 0 200px;    
+}
+
+.formulario2 form .etiquet1{ 
+      
+    margin: 5px 200px 15px 400px;    
+    
+}
+
+
+
+.formulario2 form .caja40{
+        
+    margin: 10px 50px 20px 0;    
+    width: 400px;
+    height: 40px;
+}
+.formulario2 form .caja50{
+   
+    margin: 10px 100px 20px 90px;
+    width: 850px;
+    height: 40px;
+}
+.formulario2 form .etiquet2{
+    margin: 10px 0 20px 0;
+    width: 400px;
+    height: 40px;
+}
+.formulario2 form .etiquet{
+    margin: 0 0 0 0;
+       
+}
+
+.formulario2 form .boton2{
+    background-color: rgb(4, 186, 38);
+    color: white;
+    border: none;
+    margin: 10px 0 20px 0;
+    width: 400px;
+    height: 40px;
+    font-size: 18px;
+    transition: 1s all;
+}
+.formulario2 form .boton2:hover{
+    background-color:  rgb(183, 245, 11);
+}
+
+.formulario2 form .boton3{
+    background-color: rgb(4, 186, 38);
+    color: white;
+    border: none;
+    margin: 10px 50px 20px 0;
+    width: 400px;
+    height: 40px;
+    font-size: 18px;
+    transition: 1s all;
+}
+
+.formulario2 form .boton3:hover{
+    background-color:  rgb(183, 245, 11);
+}
